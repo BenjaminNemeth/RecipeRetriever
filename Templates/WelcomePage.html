@@ -1,0 +1,22 @@
+{% extends "base.html"%}
+
+{%block head%}
+<title>Welcome Page</title>
+{%endblock%}
+
+{%block body%}
+<div class="titleDiv">
+    <h1>Welcome!</h1>
+    <h3>Ever Get stuck on what to have for dinner?</h3>
+    <h3>Or perhaps you want to try something new?</h3>
+</div>
+<div class="BodyDiv">
+    <h4>yadda yadda</h4>
+</div>
+<div class="ButtonDiv">
+    <form action="/main" >
+        <input type="submit" name="submit" value="add">
+    </form>
+</div>
+
+{%endblock%}
